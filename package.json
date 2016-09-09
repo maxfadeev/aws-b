@@ -1,0 +1,19 @@
+{
+  "name": "aws-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxfadeev/aws-b.git"
+  },
+  "author": "max.fadeev\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001bMax Fadeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxfadeev/aws-b/issues"
+  },
+  "homepage": "https://github.com/maxfadeev/aws-b#readme"
+}
