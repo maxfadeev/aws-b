@@ -12,3 +12,4 @@ public/dist
 
 # IDE's files
 .idea
+.vscode
