@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/maxfadeev/aws-b#readme",
   "dependencies": {
+    "jquery": "^3.1.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
   },
