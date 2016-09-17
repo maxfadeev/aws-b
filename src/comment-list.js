@@ -7,7 +7,7 @@ export default class CommentList extends React.Component {
         super(props);
         this.state = {
             comments: []
-        }
+        };
     }
     
     componentDidMount() {
