@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack && aws s3 sync ./public s3://serverless-aws --acl \"public-read\"",
+    "build": "npm install && webpack && npm run sync",
+    "sync": "aws s3 sync ./public s3://serverless-aws --acl \"public-read\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
