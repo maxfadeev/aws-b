@@ -18,10 +18,6 @@ export default class CommentList extends React.Component {
         });
     }
 
-    componentWillUnmount() {
-        this.serverRequest.abort();
-    }
-
     render() {
         let commentNodes = this.state.comments.map((comment) => {
             return (
