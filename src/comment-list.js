@@ -11,11 +11,15 @@ export default class CommentList extends React.Component {
     }
     
     componentDidMount() {
-        fetch(this.props.source).then((response) => {
-            this.setState({
-                comments: response.json()
+        fetch(this.props.source)
+            .then((response) => {
+                return response.json();
+            })
+            .then((json) => {
+                this.setState({
+                    comments: json
+                });
             });
-        });
     }
 
     render() {
