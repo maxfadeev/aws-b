@@ -1,6 +1,6 @@
 import React from 'react';
 import Comment from './comment';
-import $ from 'jquery';
+import 'whatwg-fetch';
 
 export default class CommentList extends React.Component {
     constructor(props) {
@@ -11,10 +11,10 @@ export default class CommentList extends React.Component {
     }
     
     componentDidMount() {
-        $.getJSON(this.props.source, (result) => {
+        fetch(this.props.source).then((response) => {
             this.setState({
-                comments: result
-            });    
+                comments: response.json()
+            });
         });
     }
 
